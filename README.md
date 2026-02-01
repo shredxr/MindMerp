@@ -72,7 +72,7 @@ just code using a more plain C dialect.
 
 
 
-::MINIMAL CODE OVERVIEW
+::CODE OVERVIEW
 The *_events.cpp files are where you'll have the best view of the event system for the few UI elements.
 globals.h and globals.cpp have a bunch of classes, and of course a GLOBALS class
 with all of the global variables in it, a single instance of this class is declared in main.cpp and 
