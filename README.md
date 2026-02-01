@@ -30,6 +30,7 @@ your own shortcuts and all that however you prefer to try it first.
 
 
 ::UNINSTALLING
+
 Uninstalling should be doable the usual way.
 If your system's uninstaller is unreliable I included an uninstall script that'll get rid of mindmerp and everything that came with it.
     --------------------------------------
@@ -49,6 +50,7 @@ These three files are all that get added to your system during installation.
 
 
 ::COMPILATION
+
 So this is a C++ project using g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0 for the compiler 
 and I also used the Qt 6.19.1 library for windowing.
 (#1): The [project] directory has everything set up to where you should just be able to type make in the terminal
@@ -60,6 +62,7 @@ see the original code by itself, that's what this directory is for.
 
 
 ::LICENSE STUFF
+
 It's FOSS of course,
 Do whatever you like with the Qt parts of the code so long as it follows GPL3 or whatever license is actually necessary.
 I'm new to distributing home made software on Linux so the license issue just isn't something
@@ -71,6 +74,7 @@ document, I don't care.
 
 
 ::INTRO TO CODE OVERVIEW
+
 As far as the code itself goes, I tried to make it as clean as possible, there's a rough edge or two 
 here and there but this is probably the cleanest most organized and abstracted code I've ever written.
 My aim from the beginning was to really milk C++'s OOP capabilities for the first time, I used to
@@ -79,6 +83,7 @@ just code using a more plain C dialect.
 
 
 ::CODE OVERVIEW
+
 The *_events.cpp files are where you'll have the best view of the event system for the few UI elements.
 globals.h and globals.cpp have a bunch of classes, and of course a GLOBALS class
 with all of the global variables in it, a single instance of this class is declared in main.cpp and 
@@ -93,6 +98,7 @@ are neat imo, I'll probably reuse those in other projects. If ya like them feel 
 
 
 ::OUTRO
+
 This program is primed for functionality additions, as it is pretty much in its most basic form,
 very minimalistic.
 If I worked for KDE I would have called this program kmindmap, really wanted to name it that but 
@@ -103,6 +109,7 @@ adding to it and making it something awesome.
 
 
 ::CONTACT
+
 You can get ahold of me on discord if ya want, I love talking code and I'll gladly answer questions
 about this project if asked.
 My discord ID is: shreddykrueger4
