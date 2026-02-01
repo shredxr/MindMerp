@@ -2,6 +2,9 @@
 This is a very basic mind mapping software that allows you to create a node, type an idea into it, and drag out other nodes for related thoughts/ideas. It's an thought/idea organization tool.
 The beauty of this is that it's so basic at this point, so if any dev wants to come by and add to it, there's plenty opportunity. I plan on updating it every so often.
 
+It's important to note that this software was created on Kubuntu 24.04, I expect that it'll work on all Ubuntu-based distros, whether it'll work on others I don't yet know, this software is
+in beta currently, looking for testers.
+
 Any code that isn't Qt is entirely free to take and do what you want with it, with Qt code it's of course required to follow whatever guidelines apply, I believe it's GPL, I went with the GPL 3 license
 because of that, the Qt code I used is fairly minimal in terms of the library's functionality, the only UI elements I used from it were QWindow, QTextEdit, QColorDialog and the one for selecting files for
 opening and saving. I had to use QScreen and the QPainter APIs as well, there may be other classes or whatever that begins with an uppercase Q that I may have forgotten about and that's about it, 
